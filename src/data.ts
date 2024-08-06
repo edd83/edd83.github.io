@@ -36,7 +36,7 @@ export const projects = [
         subtitle: "Typescript, Node, Express, PHP/Laravel, React Native",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
+        image: "./baanx.gif",
         link: "https://pythonbootcamp.com",
     },
     {
@@ -44,7 +44,7 @@ export const projects = [
         subtitle: "Typescript, Node, Nest, AWS",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
+        image: "./skeepers.gif",
         link: "https://pythonbootcamp.com",
     },
 ];
