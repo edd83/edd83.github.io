@@ -12,7 +12,7 @@ export const projects = [
         subtitle: "Typescript, Node, Sentry, Electron, Go, Vanilla, Pug",
         description:
             "An AR/VR software where we can start from scratch or use 3D models using SketFab (integratoin via API) playing with vues and timelines in order to animate your 3D experience",
-        image: "./zappar.gif",
+        image: "./zappar.mp4",
         link: "https://zappar.com",
     },
     {
