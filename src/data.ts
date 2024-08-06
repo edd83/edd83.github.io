@@ -107,7 +107,7 @@ export const testimonials = [
         company: "Lloyds Banking Group"
     },
     {
-        quote: `Eddy looks like a generous withs specifications, always  eager for come, and happy to pick up all king of work quickly`,
+        quote: `Eddy looks like generous withs specifications, always  eager for come, and happy to pick up all kind of work quickly`,
         image: "./user.svg",
         name: "Paul",
         company: "Lloyds Banking Group"
