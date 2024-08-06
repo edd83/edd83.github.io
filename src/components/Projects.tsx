@@ -40,6 +40,8 @@ export default function Projects() {
                         </a>
                     ))}
                 </div>
+                <br />
+                And many more to come...
             </div>
         </section>
     );
