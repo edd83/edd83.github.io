@@ -1,0 +1,94 @@
+{
+    "en": {
+        "translation": {
+            "NavBar": {
+                "Nav1": "Skills",
+                "Nav2" : "Resume",
+                "Nav3": "Past Work",
+                "Nav4": "Testimonials",
+                "Nav5": "Hire me"
+            },
+            "About": {
+                "Hi": "Hi, I'm Eddy",
+                "Hi2": "I love to build amazing apps.",
+                "Description": "From the age of 14 I have been curious of what was behind a video game and how work a computer. I have spent many time coding, in different size of company from small to large entreprise, start up, scale up... Building software, games, animations, APIs, websites, deploying on local servers, via CMS, via FTP and Cloud. I am possionate of team work, share knowledge, take responsability as a team, I am a huge fan of Agile who take care of one of my hobby, organisation in a company. Now I have a appetence for Typescript and APIs, as I do love typing since C and C++ and APIs are the connections between services.",
+                "Btn1": "Work with me",
+                "Btn2": "See my past work"
+            },
+            "Skills": {
+                "title": "Skills & Technologies",
+                "desc": "All the technical stack I've used during my career"
+            },
+            "Resume": {
+                "title": "Resume",
+                "desc": "Check my resume to have a better view on my experiences.",
+                "btn": "Open"
+            },
+            "Projects": {
+                "title": "Apps I've Built",
+                "desc": "Some screenshots or videos I have made of my previous work experience.",
+                "endText": "And many more to come..."
+            },
+            "Testimonials": {
+                "title": "Client / Mate Testimonials"
+            },
+            "Contact": {
+                "field1": "ADDRESS",
+                "field2": "EMAIL",
+                "field3": "PHONE",
+                "title": "Hire me",
+                "desc": "Different ways to contact me, if I do not answer, feel free to drop me a text message on my number!",
+                "form1": "Name",
+                "form2": "Email",
+                "form3": "Message",
+                "formBtn": "Send"
+            }
+        }
+    },
+    "fr": {
+        "translation": {
+            "NavBar": {
+                "Nav1": "Compétences",
+                "Nav2": "CV",
+                "Nav3": "Expériences",
+                "Nav4": "Témoignages",
+                "Nav5": "Embauchez moi"
+            },
+            "About": {
+                "Hi": "Bonjour, je suis Eddy",
+                "Hi2": "J'aime construire des applications incroyables.",
+                "Description": "Depuis l'âge de 14 ans, je suis curieux de savoir ce qui se cache derrière un jeu vidéo et comment fonctionne un ordinateur. J'ai passé beaucoup de temps à coder, dans des entreprises de différentes tailles, de la petite à la grande entreprise, en start-up, en scale-up... Création de logiciels, jeux, animations, API, sites Web, déploiement sur des serveurs locaux, via CMS, via FTP et Cloud. J'aime le travail en équipe, partager les connaissances, prendre des responsabilités en équipe, je suis un grand fan d'Agile qui s'occupe d'un de mes passe-temps, l'organisation en entreprise. Maintenant, j'ai une appétence pour Typescript et les API, car j'aime le typing depuis C et C++ et les API car ce sont les connexions entre les différents services.",
+                "Btn1": "Travaillez avec moi",
+                "Btn2": "Voir mes expériences"
+            },
+            "Skills": {
+                "title": "Compétences & Technologies",
+                "desc": "Toutes les technologies et languages que j'ai utilisé durant ma carrière"
+            },
+            "Resume": {
+                "title": "CV",
+                "desc": "Jettez un oeil à mon CV pour avoir une meilleure vue de mes expériences.",
+                "btn": "Ouvrir"
+            },
+            "Projects": {
+                "title": "Applications que j'ai développé",
+                "desc": "Quelques captures que j'ai faites de mes précèdentes expriences.",
+                "endText": "Et bien plus à venir..."
+            },
+            "Testimonials": {
+                "title": "Témoignages de clients / camarades"
+            },
+            "Contact": {
+                "field1": "ADRESSE",
+                "field2": "EMAIL",
+                "field3": "TÉLÉPHONE",
+                "title": "Embauchez moi",
+                "desc": "Différentes manières de me contacter, si je ne réponds pas, sentez-vous libre de m'envoyer un sms sur mon numéro de téléphone!",
+                "form1": "Nom/Prénom",
+                "form2": "Email",
+                "form3": "Message",
+                "formBtn": "Envoyer"
+            }
+        }
+    }
+}

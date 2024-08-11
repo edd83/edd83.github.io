@@ -27,25 +27,25 @@ export const projects = [
         title: "Llyods Banking Group",
         subtitle: "Typescript, Node, Koa, TypeORM, Jest, Splunk, SQL, Jenkins, Urban Code, Swagger, Docker, Postman",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "Being part of the Innovation Lab, I've been part of the team to teach juniors and to build the Payments API who won a reward within the bank for innovation",
         image: "./Lloyds.gif",
-        link: "https://pythonbootcamp.com",
+        link: "https://developer.lloydsbanking.com/",
     },
     {
         title: "Baanx",
         subtitle: "Typescript, Node, Express, PHP/Laravel, React Native",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "Got involved into the back end of the cryptocurrency wallets and took part of the KYC integration but also some PRs to show my data on the front",
         image: "./baanx.gif",
-        link: "https://pythonbootcamp.com",
+        link: "https://baanx.com",
     },
     {
         title: "Skeepers",
         subtitle: "Typescript, Node, Nest, AWS",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            "Being part of the architecture team, I was a reference for the technologies as we had to merge 7 start ups with different technologies. Also I have been part of the IAM/CIAM process in order to let client from all these start ups to connect on the same platform",
         image: "./skeepers.gif",
-        link: "https://pythonbootcamp.com",
+        link: "https://skeepers.io",
     },
 ];
 

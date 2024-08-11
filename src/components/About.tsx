@@ -9,24 +9,22 @@ export default function About() {
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                        {t('Hi')}
-                        <br className="hidden lg:inline-block" />I love to build amazing
-                        apps.
+                        {t('About.Hi')}
+                        <br className="hidden lg:inline-block" />{t('About.Hi2')}
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        From the age of 14 I have been curious of what was behind a video game and how work a computer. I have spent many time coding, in different size of company from small to large entreprise, start up, scale up... Building software, games, animations, APIs, websites, deploying on local servers, via CMS, via FTP and Cloud. I am possionate of team work, share knowledge, take responsability as a team, I am a huge fan of Agile who take care of one of my hobby, organisation in a company. 
-                        Now I have a appetence for Typescript and APIs, as I do love typing since C and C++ and APIs are the connections between services.
+                        {t('About.Description')}
                     </p>
                     <div className="flex justify-center">
                         <a
                             href="#contact"
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            Work With Me
+                            {t('About.Btn1')}
                         </a>
                         <a
                             href="#projects"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                            See My Past Work
+                            {t('About.Btn2')}
                         </a>
                     </div>
                 </div>

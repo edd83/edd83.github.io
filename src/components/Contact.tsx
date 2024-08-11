@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
+    const { t, i18n } = useTranslation();
 
     function encode(data: { [x: string]: string | number | boolean; "form-name": string; name: string; email: string; message: string; }) {
         return Object.keys(data)
@@ -42,7 +44,7 @@ export default function Contact() {
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                                ADDRESS
+                                {t('Contact.field1')}
                             </h2>
                             <p className="mt-1">
                                 Sanary-sur-mer, France
@@ -50,13 +52,13 @@ export default function Contact() {
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                                EMAIL
+                                {t('Contact.field2')}
                             </h2>
                             <a className="text-indigo-400 leading-relaxed">
                                 lardet.eddy@email.com
                             </a>
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                                PHONE
+                                {t('Contact.field3')}
                             </h2>
                             <p className="leading-relaxed">+33664513171</p>
                         </div>
@@ -68,14 +70,14 @@ export default function Contact() {
                     onSubmit={handleSubmit}
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-                        Hire Me
+                        {t('Contact.title')}
                     </h2>
                     <p className="leading-relaxed mb-5">
-                        Different ways to contact me, if I do not answer, feel free to drop me a text message on my number!
+                        {t('Contact.desc')}
                     </p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-                            Name
+                            {t('Contact.form1')}
                         </label>
                         <input
                             type="text"
@@ -87,7 +89,7 @@ export default function Contact() {
                     </div>
                     <div className="relative mb-4">
                         <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-                            Email
+                            {t('Contact.form2')}
                         </label>
                         <input
                             type="email"
@@ -101,7 +103,7 @@ export default function Contact() {
                         <label
                             htmlFor="message"
                             className="leading-7 text-sm text-gray-400">
-                            Message
+                            {t('Contact.form3')}
                         </label>
                         <textarea
                             id="message"
@@ -113,7 +115,7 @@ export default function Contact() {
                     <button
                         type="submit"
                         className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                        Submit
+                        {t('Contact.formBtn')}
                     </button>
                     <input type="hidden" name="form-name" value="contact" />
                 </form>
