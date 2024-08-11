@@ -75,18 +75,18 @@ export const testimonials = [
         company: "EPITECH"
     },
     {
-        quote: `Great ideas on career building and always ready to analyse and share. Also very helpful with managing work`,
-        image: "./user.svg",
-        name: "Marvin",
-        company: "Lloyds Banking Group"
-    },
-    {
         quote: `Eddy is the perfect coworker! Great programmer and humble person. He always finds the smart way to solve the problems. He is a hard worker, he will never give up and does not hesitate to question his work.
         We’ve worked together for 5months and he was a great lead!
         I would recommend Eddy without any hesitation`,
         image: "./julien.jpeg",
         name: "Julien",
         company: "Nestenn"
+    },
+    {
+        quote: `Great ideas on career building and always ready to analyse and share. Also very helpful with managing work`,
+        image: "./user.svg",
+        name: "Marvin",
+        company: "Lloyds Banking Group"
     },
     {
         quote: `I had the opportunity to work with Eddy on big projects (> 2 years). 
