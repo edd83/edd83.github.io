@@ -121,3 +121,34 @@ export const testimonials = [
         company: "EPITECH"
     }
 ];
+
+export const degreeYoga = [
+    "200h Kundalini, Hatha, Meditation, Pranayama", "300h Kundalini, Hatha, Meditation, Pranayama", "100h Nidra, Meditation", " Reiki niveau 1", "75h bain sonore et soins", "Rebalancing massage d'Osho", "15h Yoga Philosophy"
+];
+
+export const events = [
+    {
+        title: "Hatha Yoga",
+        subtitle: "Tous les mardis de 19h15 à 20h45",
+        description:
+            "Le Hatha Yoga est l’un des piliers du Yoga. Ha signifie le soleil et Tha signifie la lune. Yog signifie “Union”, union entre la conscience universelle et la conscience personnelle, entre le soleil et la lune, entre le physique et le mental, le féminin et le masculin… ☯️",
+        image: "./Logo-LCDA.jpg",
+        link: "https://lacroiseedesaums.com/",
+    },
+    {
+        title: "Kundalini Yoga",
+        subtitle: "Tous les mercredi de 19h00 à 20h30",
+        description:
+            "Le Kundalini Yoga, plus axé sur la spiritualité, il lie les postures, les mudras(gestuelle des mains), la méditation, le pranayama(respiration) et le chant.Ce Yoga permet d'apprendre à gérer l'énergie de ses différents corps dans le but d'être prêt si un jour notre Kundalini s’éveille 🐍",
+        image: "./Logo-LCDA.jpg",
+        link: "https://lacroiseedesaums.com/",
+    },
+    {
+        title: "Bain Sonore",
+        subtitle: "Mercredi 21 août à 20h",
+        description:
+            "A website to search for real estate investments (buy, rent...) using drawing on map using Douglas Percker algorithm, from scratch in Node/React based on previous functionnalities for the 300 franchisees",
+        image: "./Logo-LCDA.jpg",
+        link: "https://lacroiseedesaums.com/",
+    },
+];
