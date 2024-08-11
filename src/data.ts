@@ -67,10 +67,12 @@ export const testimonials = [
         company: "Lloyds Banking Group"
     },
     {
-        quote: "Eddy, Thank you for your hard work in the API Lab this year",
-        image: "./yogesh.jpeg",
-        name: "Yogesh",
-        company: "Lloyds Banking Group"
+        quote: `Eddy fait partie des étudiants que je recommanderais sans hésiter. 
+        En effet, en plus d'être à l'aise techniquement eddy est quelqu'un de fiable, et d'ouvert. C'est quelqu'un qui s'intègre trés facilement dans un groupe. 
+        Sa nature humble et curieuse, lui permet de se remettre en question et de comprendre les enjeux professionnels qu'il doit adresser au travers de ses missions. `,
+        image: "./fabien.jpeg",
+        name: "Fabien",
+        company: "EPITECH"
     },
     {
         quote: `Great ideas on career building and always ready to analyse and share. Also very helpful with managing work`,
@@ -113,12 +115,10 @@ export const testimonials = [
         company: "Lloyds Banking Group"
     },
     {
-        quote: `Eddy fait partie des étudiants que je recommanderais sans hésiter. 
-        En effet, en plus d'être à l'aise techniquement eddy est quelqu'un de fiable, et d'ouvert. C'est quelqu'un qui s'intègre trés facilement dans un groupe. 
-        Sa nature humble et curieuse, lui permet de se remettre en question et de comprendre les enjeux professionnels qu'il doit adresser au travers de ses missions. `,
-        image: "./fabien.jpeg",
-        name: "Fabien",
-        company: "EPITECH"
+        quote: "Eddy, Thank you for your hard work in the API Lab this year",
+        image: "./yogesh.jpeg",
+        name: "Yogesh",
+        company: "Lloyds Banking Group"
     }
 ];
 
