@@ -5,7 +5,7 @@ export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     function encode(data: { [x: string]: string | number | boolean; "form-name": string; name: string; email: string; message: string; }) {
         return Object.keys(data)
@@ -118,6 +118,12 @@ export default function Contact() {
                         {t('Contact.formBtn')}
                     </button>
                     <input type="hidden" name="form-name" value="contact" />
+                    <a
+                        href="https://cal.com/eddylardet"
+                        target="_blank"
+                        className="text-center text-white text-gray-400 bg-green-500 mt-5 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 hover:text-white rounded text-lg">
+                        {t('Contact.formBtn2')}
+                    </a>
                 </form>
             </div>
         </section>

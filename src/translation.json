@@ -41,7 +41,8 @@
                 "form1": "Name",
                 "form2": "Email",
                 "form3": "Message",
-                "formBtn": "Send"
+                "formBtn": "Send",
+                "formBtn2": "Plan a 30min call"
             }
         }
     },
@@ -87,7 +88,8 @@
                 "form1": "Nom/Prénom",
                 "form2": "Email",
                 "form3": "Message",
-                "formBtn": "Envoyer"
+                "formBtn": "Envoyer",
+                "formBtn2": "Planifier un meeting de 30min"
             }
         }
     }
