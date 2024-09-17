@@ -1,25 +1,29 @@
 import React from "react";
-import { DocumentIcon } from "@heroicons/react/24/solid";
-import Navbar from "./Navbar";
-import NavbarYoga from "./NavbarYoga";
-import AboutYoga from "./AboutYoga";
-import ContactYoga from "./ContactYoga";
-import EventYoga from "./EventYoga";
-import DegreeYoga from "./DegreeYoga";
 
 export default function Yoga() {
-    return <main className="text-gray-400 bg-purple-900 body-font">
+    return <main className="text-gray-400 bg- body-font">
         <table>
-            <td>
-                <tr>John</tr>
-                <tr>John2</tr>
-                <tr>John3</tr>
-            </td>
-            <td>
-                <tr>Henry</tr>
-                <tr>Henry2</tr>
-                <tr>Henry3</tr>
-            </td>
+            <thead>
+                <tr>
+                    <th>Carte 10 cours</th>
+                    <th>Date de début</th>
+                    <th>Présence</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sylvie</td>
+                    <td>Elodie</td>
+                </tr>
+                <tr>
+                    <td>17/09/2024</td>
+                    <td>17/09/2024</td>
+                </tr>
+                <tr>
+                    <td>17/09/2024</td>
+                    <td>17/09/2024</td>
+                </tr>
+            </tbody>
         </table>
     </main>
 }
