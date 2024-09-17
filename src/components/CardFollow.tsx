@@ -13,13 +13,11 @@ export default function Yoga() {
             <tbody>
                 <tr>
                     <td>Sylvie</td>
+                    <td>17/09/2024</td>
+                    <td>17/09/2024</td>
+                </tr>
+                <tr>
                     <td>Elodie</td>
-                </tr>
-                <tr>
-                    <td>17/09/2024</td>
-                    <td>17/09/2024</td>
-                </tr>
-                <tr>
                     <td>17/09/2024</td>
                     <td>17/09/2024</td>
                 </tr>
