@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Yoga() {
-    return <main className="text-gray-400 bg- body-font">
+    return <main className="text-gray-400 bg-white body-font">
         <table>
             <thead>
                 <tr>
