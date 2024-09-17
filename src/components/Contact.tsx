@@ -1,13 +1,15 @@
-import React from "react";
+import { Dialog, DialogPanel, DialogTitle, Button } from "@headlessui/react";
+import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
+    let [isOpen, setIsOpen] = useState(false);
     const { t } = useTranslation();
 
-    function encode(data: { [x: string]: string | number | boolean; "form-name": string; name: string; email: string; message: string; }) {
+    function encode (data: { [x: string]: string | number | boolean; "form-name": string; name: string; email: string; message: string; }) {
         return Object.keys(data)
             .map(
                 (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
@@ -15,14 +17,14 @@ export default function Contact() {
             .join("&");
     }
 
-    function handleSubmit(e: { preventDefault: () => void; }) {
+    function handleSubmit (e: { preventDefault: () => void; }) {
         e.preventDefault();
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message }),
         })
-            .then(() => alert("Message sent!"))
+            .then(() => setIsOpen(true))
             .catch((error) => alert(error));
     }
 
@@ -126,6 +128,31 @@ export default function Contact() {
                     </a>
                 </form>
             </div>
+            <Dialog open={isOpen} as="div" className="relative z-10 focus:outline-none" onClose={() => setIsOpen(false)}>
+                <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+                    <div className="flex min-h-full items-center justify-center p-4">
+                        <DialogPanel
+                            transition
+                            className="w-full max-w-md rounded-xl bg-white/5 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
+                        >
+                            <DialogTitle as="h3" className="text-base/7 font-medium text-white">
+                                {t('Contact.msgTitle')}
+                            </DialogTitle>
+                            <p className="mt-2 text-sm/6 text-white/50">
+                                {t('Contact.msgDesc')}
+                            </p>
+                            <div className="mt-4">
+                                <Button
+                                    className="inline-flex items-center gap-2 rounded-md bg-gray-700 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[focus]:outline-1 data-[focus]:outline-white data-[open]:bg-gray-700"
+                                    onClick={() => setIsOpen(false)}
+                                >
+                                    {t('Contact.msgBtn')}
+                                </Button>
+                            </div>
+                        </DialogPanel>
+                    </div>
+                </div>
+            </Dialog>
         </section>
     );
 }

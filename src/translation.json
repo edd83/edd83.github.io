@@ -42,7 +42,10 @@
                 "form2": "Email",
                 "form3": "Message",
                 "formBtn": "Send",
-                "formBtn2": "Plan a 30min call"
+                "formBtn2": "Plan a 30min call",
+                "msgTitle": "Message sent",
+                "msgDesc": "Your message has been successfully submitted.",
+                "msgBtn": "Got it, thanks!"
             }
         }
     },
@@ -89,7 +92,10 @@
                 "form2": "Email",
                 "form3": "Message",
                 "formBtn": "Envoyer",
-                "formBtn2": "Planifier un meeting de 30min"
+                "formBtn2": "Planifier un meeting de 30min",
+                "msgTitle": "Message envoyé",
+                "msgDesc": "Votre message à été envoyé avec succès.",
+                "msgBtn": "Bien reçu, merci!."
             }
         }
     }

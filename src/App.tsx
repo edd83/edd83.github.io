@@ -31,6 +31,7 @@ function App() {
             <Routes>
             <Route Component={Main} path="/" />
             <Route Component={Yoga} path="/yoga" />
+            <Route Component={CardFollow} path="/yoga/card" />
             <Route path="*" element={<NoMatch />} />
             </Routes>
         </div>
