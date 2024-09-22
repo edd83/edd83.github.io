@@ -10,7 +10,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Yoga from "./components/Yoga";
 import React from 'react';
 import NoMatch from './components/NoMatch';
-import CardFollow from './components/CardFollow';
 
 function Main() {
   return <main className="text-gray-400 bg-gray-900 body-font">
@@ -32,7 +31,6 @@ function App() {
             <Routes>
             <Route Component={Main} path="/" />
             <Route Component={Yoga} path="/yoga" />
-            <Route Component={CardFollow} path="/yoga/card" />
             <Route path="*" element={<NoMatch />} />
             </Routes>
         </div>

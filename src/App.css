@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.tableCard {
+  text-indent: 70px;
+  margin: auto;
+}
+
+.tableCard td
+tr,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
